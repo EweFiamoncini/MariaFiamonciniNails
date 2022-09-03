@@ -2,26 +2,32 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
-  display: flex;
+  display: grid;
   justify-content: center;
   min-height: 100vh;
-  border: 1px so;
-  font-size: 50px;
 }
 
 .logo {
   display: flex;
+  height: 90px;
+  padding: 50px 0 50px;
+}
+
+.workin{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: x-large;
 }
 
 .c-loader {
-  height: 100px;
-  width: 100px;
+  margin: 0 auto;
   animation: is-rotating 1s infinite;
-  border: 5px solid #e5e5e5;
+  border: 20px solid #e5e5e5;
   border-radius: 50%;
-  border-top-color: #ff0095;
-  height: 20px;
-  width: 20px;
+  border-top-color: #EE3124;
+  height: 200px;
+  width: 200px;
 }
 
 @keyframes is-rotating {
@@ -29,4 +35,3 @@ body {
     transform: rotate(1turn);
   }
 }
-
