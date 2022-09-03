@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  border: 1px so;
+  font-size: 50px;
+}
+
+.logo {
+  display: flex;
+}
+
+.c-loader {
+  height: 100px;
+  width: 100px;
+  animation: is-rotating 1s infinite;
+  border: 5px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: #ff0095;
+  height: 20px;
+  width: 20px;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
