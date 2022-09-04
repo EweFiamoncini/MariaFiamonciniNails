@@ -1,4 +1,5 @@
 body {
+  background-color: #ffa1bd;
   margin: 0;
   padding: 0;
   align-items: center;
@@ -7,10 +8,8 @@ body {
   min-height: 100vh;
 }
 
-.logo {
-  display: flex;
-  height: 90px;
-  padding: 50px 0 50px;
+.logo{
+  padding-bottom: 50px;
 }
 
 .workin{
@@ -23,15 +22,33 @@ body {
 .c-loader {
   margin: 0 auto;
   animation: is-rotating 1s infinite;
-  border: 20px solid #e5e5e5;
+  border: 10px solid #fff;
   border-radius: 50%;
-  border-top-color: #EE3124;
-  height: 200px;
-  width: 200px;
+  border-top-color: #ffa1bd;
+  height: 100px;
+  width: 100px;
 }
 
 @keyframes is-rotating {
   to {
     transform: rotate(1turn);
   }
+}
+
+footer{
+  margin: 0px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer p.mf{
+  font-size: small;
+}
+
+footer p.author{
+  font-size: x-small;
 }
