@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #ffa1bd;
+  display: grid;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.logo{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+ul{
+  color: black;
+  display: grid;
+  text-align: center;
+  margin: 50px;
+}
+
+.button_time{
+  color: black;
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button_price{
+  color: black;
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.button_photo{
+  color: black;
+  background-color: #fff;
+  margin-bottom: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+.button_about{
+  color: black;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: filter 0.5s;
+  opacity: 0.5;
+}
+
+a{
+  cursor: pointer;
+  transition: filter 0.5s;
+}
+
+a:hover{
+  filter: brightness(0.7);
+}
+
+footer{
+  margin: 0px;
+  text-align: center;
+  padding-top: 50px;
+  color: #6d6d6d;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer p.mf{
+  font-size: small;
+}
+
+footer p.author{
+  font-size: x-small;
+}
