@@ -1,62 +1,66 @@
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  align-items: center;
-  font-family: 'Roboto', sans-serif;
 }
 
 body{
+  font-family: 'Roboto', sans-serif;
   background-color: #ffa1bd;
-  display: grid;
-  justify-content: center;
-  min-height: 100vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  padding: 32px 0;
+  text-align: center;
 }
 
 .logo{
   background-color: #fff;
-  padding: 10px;
   border-radius: 50%;
-  margin-top: 50px;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
-.description{
-  font-size: 20px;
-  display: grid;
+section{
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+h1{
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 0;
+  letter-spacing: 0.1em;
 }
 
-button{
-  border: none;
-  background-color: #fff;
-  text-decoration: none;
-  border-radius: 50%;
-  width: 50px;
-}
-
-ul{
-  color: black;
-  display: grid;
+h3{
   text-align: center;
-  margin: 20px 50px;
+  font-size: 1em;
+  padding: 5px;
+
+  width: 195px;
+
+  background: #FFC8CE;
+  border-radius: 0px 0px 10px 0px;
+
+  margin-bottom: 10px;
 }
 
-.button_wpp{
-  color: rgb(0, 170, 0);
-  background-color: #fff;
-  height: 40px;
-  margin-bottom: 40px;
-  padding-left: 50px;
-  border-radius: 10px;
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
+.pag{
+  text-align: center;
 }
 
 .button_close{
   color: black;
+  display: grid;
+  text-align: center;
+  margin: 30px 50px;
   background-color: #fff;
   padding: 10px;
   border-radius: 10px;
@@ -90,26 +94,3 @@ footer p.mf{
 footer p.author{
   font-size: x-small;
 }
-
-.workin{
-  text-align: center;
-  margin: 0 auto;
-  padding-top: 50px;
-  font-size: x-large;
-}
-
-.c-loader {
-    margin: 0 auto;
-    animation: is-rotating 1s infinite;
-    border: 10px solid #fff;
-    border-radius: 50%;
-    border-top-color: #ffa1bd;
-    height: 100px;
-    width: 100px;
-  }
-  
-  @keyframes is-rotating {
-    to {
-      transform: rotate(1turn);
-    }
-  }
