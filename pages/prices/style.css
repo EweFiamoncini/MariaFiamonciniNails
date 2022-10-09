@@ -1,15 +1,16 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 body{
-  font-family: 'Roboto', sans-serif;
   background-color: #ffa1bd;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  display: grid;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 ul{
@@ -60,7 +61,7 @@ h3{
   color: black;
   display: grid;
   text-align: center;
-  margin: 30px 50px;
+  margin: 30px 50px 0px ;
   background-color: #fff;
   padding: 10px;
   border-radius: 10px;
